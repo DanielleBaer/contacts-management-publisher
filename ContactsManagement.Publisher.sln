@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsManagement.Publishe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsManagement.Publisher.Api.Tests", "tests\ContactsManagement.Publisher.Api.Tests\ContactsManagement.Publisher.Api.Tests.csproj", "{660062A2-506D-4085-8D60-CCA9461B676F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManagement.Publisher.Domain", "src\ContactsManagement.Publisher.Domain\ContactsManagement.Publisher.Domain.csproj", "{1AE79010-6AAC-423C-8327-E4A9F3481497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsManagement.Publisher.Domain", "src\ContactsManagement.Publisher.Domain\ContactsManagement.Publisher.Domain.csproj", "{1AE79010-6AAC-423C-8327-E4A9F3481497}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManagement.Publisher.Domain.Tests", "tests\ContactsManagement.Publisher.Domain.Tests\ContactsManagement.Publisher.Domain.Tests.csproj", "{80665D16-FF5E-44EF-9CBE-36662507C17F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsManagement.Publisher.Domain.Tests", "tests\ContactsManagement.Publisher.Domain.Tests\ContactsManagement.Publisher.Domain.Tests.csproj", "{80665D16-FF5E-44EF-9CBE-36662507C17F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManagement.Publisher.Infra", "src\ContactsManagement.Publisher.Infra\ContactsManagement.Publisher.Infra.csproj", "{01E37388-F45D-4462-AA65-33F474035CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManagement.Publisher.Ioc", "src\ContactsManagement.Publisher.Ioc\ContactsManagement.Publisher.Ioc.csproj", "{A17670C8-8A67-4F23-86E0-45A9E2D112F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{80665D16-FF5E-44EF-9CBE-36662507C17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80665D16-FF5E-44EF-9CBE-36662507C17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80665D16-FF5E-44EF-9CBE-36662507C17F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E37388-F45D-4462-AA65-33F474035CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E37388-F45D-4462-AA65-33F474035CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E37388-F45D-4462-AA65-33F474035CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E37388-F45D-4462-AA65-33F474035CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17670C8-8A67-4F23-86E0-45A9E2D112F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17670C8-8A67-4F23-86E0-45A9E2D112F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17670C8-8A67-4F23-86E0-45A9E2D112F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17670C8-8A67-4F23-86E0-45A9E2D112F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ContactsManagement.Publisher.Domain\ContactsManagement.Publisher.Domain.csproj" />
+    <ProjectReference Include="..\ContactsManagement.Publisher.Infra\ContactsManagement.Publisher.Infra.csproj" />
+  </ItemGroup>
 </Project>
