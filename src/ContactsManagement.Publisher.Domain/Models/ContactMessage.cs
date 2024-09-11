@@ -1,8 +1,7 @@
 ﻿using ContactsManagement.Publisher.Domain.Enums;
-using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace ContactsManagement.Publisher.Api.Models;
+namespace ContactsManagement.Publisher.Domain.Models;
 
 public record ContactMessage
 {

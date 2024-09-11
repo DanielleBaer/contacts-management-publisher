@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ContactsManagement.Publisher.Domain.Models;
 
 namespace ContactsManagement.Publisher.Api.Models.Requests;
 

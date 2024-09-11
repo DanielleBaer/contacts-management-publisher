@@ -4,16 +4,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ContactsManagement.Publisher.Api;
 
-[Route("api/[controller]")]
 [ApiController]
 public class ContactsController : ControllerBase
 {
     public ContactsController()
-    {
-        
+    {      
     }
 
-    [HttpPost]
+    [HttpPost("/api/[controller]:create")]
     public async Task<IActionResult> PublishCreateAsync(
         [FromBody] CreateContactRequest request,
         CancellationToken cancellationToken)
@@ -21,7 +19,7 @@ public class ContactsController : ControllerBase
         return Created(string.Empty, null);
     }
 
-    [HttpPost]
+    [HttpPost("/api/[controller]:update")]
     public async Task<IActionResult> PublishUpdateAsync(
         [FromBody] UpdateContactRequest request,
         CancellationToken cancellationToken)
@@ -29,7 +27,7 @@ public class ContactsController : ControllerBase
         return Created(string.Empty, null);
     }
 
-    [HttpPost]
+    [HttpPost("/api/[controller]:delete")]
     public async Task<IActionResult> PublishDeleteAsync(
         [FromBody] DeleteMessageRequest request)
     {

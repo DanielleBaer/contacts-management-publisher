@@ -2,11 +2,13 @@
   "profiles": {
     "ContactsManagement.Publisher.Api": {
       "commandName": "Project",
+      "dotnetRunMessages": true,
       "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5129",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:56622;http://localhost:56623"
+      }
     }
   }
 }
