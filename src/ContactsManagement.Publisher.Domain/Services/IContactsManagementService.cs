@@ -4,5 +4,5 @@ namespace ContactsManagement.Publisher.Domain.Services;
 
 public interface IContactsManagementService
 {
-    Task ExecuteAsync(ContactMessage contactMessage);
+    Task ExecuteAsync(ContactMessage contactMessage, CancellationToken cancellationToken = default);
 }
